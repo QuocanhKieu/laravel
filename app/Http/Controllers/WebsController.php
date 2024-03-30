@@ -6,6 +6,12 @@ use Illuminate\Http\Request;
 
 class WebsController extends Controller
 {
+	public function index() {
+		return view('index');
+	}
+	public function about() {
+		return view('about');// có thể dùng chung 1 controller class và nhiều method 
+	}
     //
 	public function search() {
 		$title = 'Data passed from WebsController.php to webs.search.blade.php';

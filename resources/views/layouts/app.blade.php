@@ -7,8 +7,13 @@
 	<title>Document</title>
 </head>
 <body>
-	<div style="height: 100px; color: aqua">thi is header</div>
-	<h1>Common Layout</h1>
-	<div style="height: 100px; color: orange)">thi is header</div>
+	<div style="height: 100px; background-color: aqua">this is header</div>
+	{{-- app.blade.php là master page --}}
+	{{-- about.blade.php là child page --}}
+	{{-- index.blade.php là child page --}}
+	@yield('content') 
+	{{-- content chung --}}
+
+	<div style="height: 100px; background-color: orange">this is footer</div>
 </body>
 </html>
