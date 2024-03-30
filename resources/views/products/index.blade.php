@@ -7,7 +7,7 @@
 	<title>Document</title>
 </head>
 <body>
-	<h1>search.blade.php</h1>
+	<h1>index.blade.php</h1>
 	<h1>{{ $title }}</h1>
 	
 		@foreach ($myArray as $item)

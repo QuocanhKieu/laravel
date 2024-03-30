@@ -7,13 +7,8 @@
 	<title>Document</title>
 </head>
 <body>
-	<h1>search.blade.php</h1>
-	<h1>{{ $title }}</h1>
-	
-		@foreach ($myArray as $item)
-			<h3>{{ $item }}</h3>
-		@endforeach
-
-	
+	<div style="height: 100px; color: aqua">thi is header</div>
+	<h1>Common Layout</h1>
+	<div style="height: 100px; color: orange)">thi is header</div>
 </body>
 </html>
