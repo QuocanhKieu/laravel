@@ -23,5 +23,7 @@ Route::get("/", [WebsController::class, 'index']);
 Route::get("/about", [WebsController::class, 'about']);
 Route::get("/home",function(){
 	return redirect('/');
-});
+}); 
+
+/// 
 
